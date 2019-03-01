@@ -1,0 +1,54 @@
+#hide {
+    font-size: 50px;
+    width: 860px;
+    margin: 0 auto; 
+    display: block;
+    background-color: darkred;
+    border-color: black;
+
+  
+}
+
+body {
+    background-image:  url("bulls2.png");
+    
+}    
+#header {
+    text-align: center;
+    font-size: 50px; 
+  
+    background-color: darkred;
+    width: 860px; 
+    display: block;
+    margin: 0 auto; 
+    color: white; 
+}
+
+#timer {
+    font-size: 35px;
+    text-align: center;
+    
+    background-color: darkred;
+    width: 860px; 
+    display: block;
+    margin: 0 auto; 
+    color: white; 
+}
+
+#questions {
+   text-align: center;
+    font-size: 35px;
+    background-color: darkred;
+    width:820px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+#end {
+    text-align: center;
+    font-size: 35px;
+    background-color: darkred;
+    width:820px;
+    margin: 0 auto; 
+    padding: 20px; 
+}

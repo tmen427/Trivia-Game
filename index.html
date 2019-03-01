@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <p id="header">Totally Trivial Triva!</p>
+    <p id="timer">Time Remaining: 30 seconds </p>
+    <p id='random'></p>
+
+
+    <button id='hide'>CLICK TO START THE GAME!</button>
+
+
+    <div id='end'>
+        <p id='wins'>Wins: </p>
+        <p id='losses'>Losses: </p>
+        <p id='unanswered'>Unanswered: </p>
+    </div>
+
+    <div id='questions'>
+        <form id='firstform'>
+            <p> <i>What team did Micheal Jordan play for? </i> </p>
+            <input type='radio' name='sport' id='choice1' value='Chicago Bulls' /> Chicago Bulls
+            <input type='radio' name='sport' id='choice2' value='knicks' /> New York Knicks
+            <input type='radio' name='sport' id='choice3' value='Mavericks' /> Dallas Mavericks
+
+        </form>
+
+        <form id='second'>
+            <p> <i> What is Micheal Jordan's nickname? </i></p>
+            <input type='radio' name='sport' id='choice1' value='Mr.Jordan' /> Mr.Jordan
+            <input type='radio' name='sport' id='choice2' value='MJ' /> The Answer
+            <input type='radio' name='sport' id='choice3' value='Air Jordan' /> Air Jordan
+            <input type='radio' name='sport' id='choice4' value='The Greatest' /> The Greatest
+        </form>
+
+
+
+        <form id='third'>
+            <p><i> What was Micheal Jordans number on his jersey? </i></p>
+            <input type='radio' name='sport' id='choice1' value='21' /> 21
+            <input type='radio' name='sport' id='choice1' value='22' /> 22
+            <input type='radio' name='sport' id='choice1' value='23' /> 23
+            <input type='radio' name='sport' id='choice1' value='24' /> 24
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<script type="text/javascript" src="javascript/app.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
