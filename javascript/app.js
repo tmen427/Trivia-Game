@@ -55,7 +55,7 @@
 
 
                 //countdown timer - when 30 seconds is up reset everything
-                var timer = setInterval(count, 500);
+                var timer = setInterval(count, 1000);
                 var sum = 30;
 
                 function count() {
